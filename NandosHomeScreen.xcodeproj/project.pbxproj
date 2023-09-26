@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042674D92AC313830072F0EF /* StretchyHeaderTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042674D82AC313830072F0EF /* StretchyHeaderTop.swift */; };
+		042674DB2AC3150A0072F0EF /* StretchyHeaderBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042674DA2AC3150A0072F0EF /* StretchyHeaderBottom.swift */; };
+		048006652A9BAC0200C004AC /* NandosHomeScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048006642A9BAC0200C004AC /* NandosHomeScreenApp.swift */; };
+		048006672A9BAC0200C004AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048006662A9BAC0200C004AC /* ContentView.swift */; };
+		048006692A9BAC0200C004AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048006682A9BAC0200C004AC /* Assets.xcassets */; };
+		0480066C2A9BAC0200C004AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0480066B2A9BAC0200C004AC /* Preview Assets.xcassets */; };
+		048006762A9BAC0200C004AC /* NandosHomeScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048006752A9BAC0200C004AC /* NandosHomeScreenTests.swift */; };
+		048006802A9BAC0300C004AC /* NandosHomeScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0480067F2A9BAC0300C004AC /* NandosHomeScreenUITests.swift */; };
+		048006822A9BAC0300C004AC /* NandosHomeScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048006812A9BAC0300C004AC /* NandosHomeScreenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		048006722A9BAC0200C004AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048006592A9BAC0200C004AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048006602A9BAC0200C004AC;
+			remoteInfo = NandosHomeScreen;
+		};
+		0480067C2A9BAC0300C004AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 048006592A9BAC0200C004AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048006602A9BAC0200C004AC;
+			remoteInfo = NandosHomeScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		042674D82AC313830072F0EF /* StretchyHeaderTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderTop.swift; sourceTree = "<group>"; };
+		042674DA2AC3150A0072F0EF /* StretchyHeaderBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderBottom.swift; sourceTree = "<group>"; };
+		048006612A9BAC0200C004AC /* NandosHomeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NandosHomeScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		048006642A9BAC0200C004AC /* NandosHomeScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NandosHomeScreenApp.swift; sourceTree = "<group>"; };
+		048006662A9BAC0200C004AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		048006682A9BAC0200C004AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0480066B2A9BAC0200C004AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		048006712A9BAC0200C004AC /* NandosHomeScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NandosHomeScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		048006752A9BAC0200C004AC /* NandosHomeScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NandosHomeScreenTests.swift; sourceTree = "<group>"; };
+		0480067B2A9BAC0300C004AC /* NandosHomeScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NandosHomeScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0480067F2A9BAC0300C004AC /* NandosHomeScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NandosHomeScreenUITests.swift; sourceTree = "<group>"; };
+		048006812A9BAC0300C004AC /* NandosHomeScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NandosHomeScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0480065E2A9BAC0200C004AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480066E2A9BAC0200C004AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048006782A9BAC0300C004AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042674D72AC3136D0072F0EF /* StretchyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				042674D82AC313830072F0EF /* StretchyHeaderTop.swift */,
+				042674DA2AC3150A0072F0EF /* StretchyHeaderBottom.swift */,
+			);
+			path = StretchyHeader;
+			sourceTree = "<group>";
+		};
+		048006582A9BAC0200C004AC = {
+			isa = PBXGroup;
+			children = (
+				048006632A9BAC0200C004AC /* NandosHomeScreen */,
+				048006742A9BAC0200C004AC /* NandosHomeScreenTests */,
+				0480067E2A9BAC0300C004AC /* NandosHomeScreenUITests */,
+				048006622A9BAC0200C004AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		048006622A9BAC0200C004AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				048006612A9BAC0200C004AC /* NandosHomeScreen.app */,
+				048006712A9BAC0200C004AC /* NandosHomeScreenTests.xctest */,
+				0480067B2A9BAC0300C004AC /* NandosHomeScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		048006632A9BAC0200C004AC /* NandosHomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				042674D72AC3136D0072F0EF /* StretchyHeader */,
+				048006642A9BAC0200C004AC /* NandosHomeScreenApp.swift */,
+				048006662A9BAC0200C004AC /* ContentView.swift */,
+				048006682A9BAC0200C004AC /* Assets.xcassets */,
+				0480066A2A9BAC0200C004AC /* Preview Content */,
+			);
+			path = NandosHomeScreen;
+			sourceTree = "<group>";
+		};
+		0480066A2A9BAC0200C004AC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0480066B2A9BAC0200C004AC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		048006742A9BAC0200C004AC /* NandosHomeScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				048006752A9BAC0200C004AC /* NandosHomeScreenTests.swift */,
+			);
+			path = NandosHomeScreenTests;
+			sourceTree = "<group>";
+		};
+		0480067E2A9BAC0300C004AC /* NandosHomeScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0480067F2A9BAC0300C004AC /* NandosHomeScreenUITests.swift */,
+				048006812A9BAC0300C004AC /* NandosHomeScreenUITestsLaunchTests.swift */,
+			);
+			path = NandosHomeScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		048006602A9BAC0200C004AC /* NandosHomeScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048006852A9BAC0300C004AC /* Build configuration list for PBXNativeTarget "NandosHomeScreen" */;
+			buildPhases = (
+				0480065D2A9BAC0200C004AC /* Sources */,
+				0480065E2A9BAC0200C004AC /* Frameworks */,
+				0480065F2A9BAC0200C004AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NandosHomeScreen;
+			productName = NandosHomeScreen;
+			productReference = 048006612A9BAC0200C004AC /* NandosHomeScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		048006702A9BAC0200C004AC /* NandosHomeScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 048006882A9BAC0300C004AC /* Build configuration list for PBXNativeTarget "NandosHomeScreenTests" */;
+			buildPhases = (
+				0480066D2A9BAC0200C004AC /* Sources */,
+				0480066E2A9BAC0200C004AC /* Frameworks */,
+				0480066F2A9BAC0200C004AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				048006732A9BAC0200C004AC /* PBXTargetDependency */,
+			);
+			name = NandosHomeScreenTests;
+			productName = NandosHomeScreenTests;
+			productReference = 048006712A9BAC0200C004AC /* NandosHomeScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0480067A2A9BAC0300C004AC /* NandosHomeScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0480068B2A9BAC0300C004AC /* Build configuration list for PBXNativeTarget "NandosHomeScreenUITests" */;
+			buildPhases = (
+				048006772A9BAC0300C004AC /* Sources */,
+				048006782A9BAC0300C004AC /* Frameworks */,
+				048006792A9BAC0300C004AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0480067D2A9BAC0300C004AC /* PBXTargetDependency */,
+			);
+			name = NandosHomeScreenUITests;
+			productName = NandosHomeScreenUITests;
+			productReference = 0480067B2A9BAC0300C004AC /* NandosHomeScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		048006592A9BAC0200C004AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					048006602A9BAC0200C004AC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					048006702A9BAC0200C004AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 048006602A9BAC0200C004AC;
+					};
+					0480067A2A9BAC0300C004AC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 048006602A9BAC0200C004AC;
+					};
+				};
+			};
+			buildConfigurationList = 0480065C2A9BAC0200C004AC /* Build configuration list for PBXProject "NandosHomeScreen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048006582A9BAC0200C004AC;
+			productRefGroup = 048006622A9BAC0200C004AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				048006602A9BAC0200C004AC /* NandosHomeScreen */,
+				048006702A9BAC0200C004AC /* NandosHomeScreenTests */,
+				0480067A2A9BAC0300C004AC /* NandosHomeScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0480065F2A9BAC0200C004AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0480066C2A9BAC0200C004AC /* Preview Assets.xcassets in Resources */,
+				048006692A9BAC0200C004AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480066F2A9BAC0200C004AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048006792A9BAC0300C004AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0480065D2A9BAC0200C004AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048006672A9BAC0200C004AC /* ContentView.swift in Sources */,
+				042674DB2AC3150A0072F0EF /* StretchyHeaderBottom.swift in Sources */,
+				042674D92AC313830072F0EF /* StretchyHeaderTop.swift in Sources */,
+				048006652A9BAC0200C004AC /* NandosHomeScreenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0480066D2A9BAC0200C004AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048006762A9BAC0200C004AC /* NandosHomeScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		048006772A9BAC0300C004AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048006822A9BAC0300C004AC /* NandosHomeScreenUITestsLaunchTests.swift in Sources */,
+				048006802A9BAC0300C004AC /* NandosHomeScreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048006732A9BAC0200C004AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048006602A9BAC0200C004AC /* NandosHomeScreen */;
+			targetProxy = 048006722A9BAC0200C004AC /* PBXContainerItemProxy */;
+		};
+		0480067D2A9BAC0300C004AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 048006602A9BAC0200C004AC /* NandosHomeScreen */;
+			targetProxy = 0480067C2A9BAC0300C004AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		048006832A9BAC0300C004AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		048006842A9BAC0300C004AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		048006862A9BAC0300C004AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NandosHomeScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = P9A8S6RRZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.NandosHomeScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		048006872A9BAC0300C004AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NandosHomeScreen/Preview Content\"";
+				DEVELOPMENT_TEAM = P9A8S6RRZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.NandosHomeScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		048006892A9BAC0300C004AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9A8S6RRZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.NandosHomeScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NandosHomeScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NandosHomeScreen";
+			};
+			name = Debug;
+		};
+		0480068A2A9BAC0300C004AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9A8S6RRZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.NandosHomeScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NandosHomeScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NandosHomeScreen";
+			};
+			name = Release;
+		};
+		0480068C2A9BAC0300C004AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9A8S6RRZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.NandosHomeScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NandosHomeScreen;
+			};
+			name = Debug;
+		};
+		0480068D2A9BAC0300C004AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9A8S6RRZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.NandosHomeScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NandosHomeScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0480065C2A9BAC0200C004AC /* Build configuration list for PBXProject "NandosHomeScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048006832A9BAC0300C004AC /* Debug */,
+				048006842A9BAC0300C004AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048006852A9BAC0300C004AC /* Build configuration list for PBXNativeTarget "NandosHomeScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048006862A9BAC0300C004AC /* Debug */,
+				048006872A9BAC0300C004AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		048006882A9BAC0300C004AC /* Build configuration list for PBXNativeTarget "NandosHomeScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				048006892A9BAC0300C004AC /* Debug */,
+				0480068A2A9BAC0300C004AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0480068B2A9BAC0300C004AC /* Build configuration list for PBXNativeTarget "NandosHomeScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0480068C2A9BAC0300C004AC /* Debug */,
+				0480068D2A9BAC0300C004AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 048006592A9BAC0200C004AC /* Project object */;
+}
